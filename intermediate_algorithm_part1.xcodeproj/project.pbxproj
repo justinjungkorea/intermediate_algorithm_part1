@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E7ADD518221E812200A9F281 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7ADD517221E812200A9F281 /* main.cpp */; };
 		E7ADD525221E813B00A9F281 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7ADD524221E813B00A9F281 /* main.cpp */; };
 		E7ADD530221E814200A9F281 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7ADD52F221E814200A9F281 /* main.cpp */; };
 		E7ADD53B221E814900A9F281 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7ADD53A221E814900A9F281 /* main.cpp */; };
@@ -84,7 +83,6 @@
 
 /* Begin PBXFileReference section */
 		E7ADD514221E812200A9F281 /* intermediate_algorithm_part1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = intermediate_algorithm_part1; sourceTree = BUILT_PRODUCTS_DIR; };
-		E7ADD517221E812200A9F281 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E7ADD522221E813B00A9F281 /* 11047 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 11047; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7ADD524221E813B00A9F281 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E7ADD52D221E814200A9F281 /* 1931 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 1931; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -155,7 +153,6 @@
 		E7ADD50B221E812200A9F281 = {
 			isa = PBXGroup;
 			children = (
-				E7ADD516221E812200A9F281 /* intermediate_algorithm_part1 */,
 				E7ADD523221E813B00A9F281 /* 11047 */,
 				E7ADD52E221E814200A9F281 /* 1931 */,
 				E7ADD539221E814900A9F281 /* 11399 */,
@@ -178,14 +175,6 @@
 				E7ADD559221E815B00A9F281 /* 2875 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E7ADD516221E812200A9F281 /* intermediate_algorithm_part1 */ = {
-			isa = PBXGroup;
-			children = (
-				E7ADD517221E812200A9F281 /* main.cpp */,
-			);
-			path = intermediate_algorithm_part1;
 			sourceTree = "<group>";
 		};
 		E7ADD523221E813B00A9F281 /* 11047 */ = {
@@ -418,7 +407,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E7ADD518221E812200A9F281 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
