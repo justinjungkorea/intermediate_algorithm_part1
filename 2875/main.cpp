@@ -8,8 +8,28 @@
 
 #include <iostream>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+
+int n,m,k;
+
+int main() {
+    //freopen("/Users/dongwookjung/documents/Practice/Algorithm/input/2875.txt","r",stdin);
+    //freopen("/Users/dongwookjung/documents/Practice/FirstTouch/test.txt","r",stdin);
+    
+    cin >> n >> m >> k;
+    
+    int team = 0;
+    while(true){
+        if( (n+m)>=k+3 && n>1 && m>0){
+            team++;
+            n-=2;
+            m-=1;
+        }
+        else{
+            break;
+        }
+    }
+    cout << team << endl;
+    
     return 0;
 }
